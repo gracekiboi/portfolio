@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" data-theme="light">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GRACE WANJIKU KIBOI | Web Developer</title>
-    <button onclick="toggleDarkMode()" class="text-pink-700 hover:text-pink-900 md:ml-4">
+   <button onclick="toggleDarkMode()" class="hover:text-pink-600 dark:hover:text-pink-300">
   <i class="fas fa-moon"></i>
 </button>
+
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer>
@@ -32,7 +34,8 @@
       }
     </style>
   </head>
-  <body class="bg-pink-50 text-gray-800 dark:bg-gray-900 dark:text-white">
+  <body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white transition-all duration-300">
+
 
     <!-- NAV -->
     <nav class="bg-white shadow-md fixed top-0 w-full z-10">
@@ -183,12 +186,15 @@
     <footer class="text-center text-sm py-6 text-gray-500 bg-white border-t border-pink-100">
       &copy; 2025 GRACE WANJIKU KIBOI. All rights reserved.
     </footer>
-    <script>
+  <script>
   function toggleDarkMode() {
-    document.documentElement.classList.toggle('dark');
+    document.documentElement.classList.toggle("dark");
   }
 </script>
 
+
+
   </body>
 </html>
+
 
