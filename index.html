@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GRACE WANJIKU KIBOI | Web Developer</title>
+    <button onclick="toggleDarkMode()" class="text-pink-700 hover:text-pink-900 md:ml-4">
+  <i class="fas fa-moon"></i>
+</button>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer>
       // Toggle mobile menu
@@ -28,7 +32,8 @@
       }
     </style>
   </head>
-  <body class="bg-pink-50 text-gray-800">
+  <body class="bg-pink-50 text-gray-800 dark:bg-gray-900 dark:text-white">
+
     <!-- NAV -->
     <nav class="bg-white shadow-md fixed top-0 w-full z-10">
       <div class="container mx-auto flex justify-between items-center px-6 py-4">
@@ -91,6 +96,72 @@
               </p>
             </div>
           </a>
+          <!-- FreeCodeCamp: Tribute Page -->
+<a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank"
+   class="block shadow-lg hover:shadow-purple-200 rounded-xl overflow-hidden transition bg-purple-100 dark:bg-gray-800">
+  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+       class="w-full h-48 object-contain p-6 bg-white dark:bg-gray-700" alt="Tribute Page" />
+  <div class="p-6 text-left">
+    <h3 class="text-xl font-semibold text-purple-700 dark:text-purple-300">Tribute Page</h3>
+    <p class="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+      A responsive HTML/CSS tribute page project following FCC guidelines.
+    </p>
+  </div>
+</a>
+
+<!-- FreeCodeCamp: Random Quote Machine -->
+<a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank"
+   class="block shadow-lg hover:shadow-purple-200 rounded-xl overflow-hidden transition bg-purple-100 dark:bg-gray-800">
+  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+       class="w-full h-48 object-contain p-6 bg-white dark:bg-gray-700" alt="Random Quote Machine" />
+  <div class="p-6 text-left">
+    <h3 class="text-xl font-semibold text-purple-700 dark:text-purple-300">Quote Machine</h3>
+    <p class="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+      A JavaScript app that fetches random quotes and displays author info.
+    </p>
+  </div>
+</a>
+
+<!-- FreeCodeCamp: Tribute Page -->
+<a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank"
+   class="block shadow-lg hover:shadow-purple-200 rounded-xl overflow-hidden transition bg-purple-100 dark:bg-gray-800">
+  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+       class="w-full h-48 object-contain p-6 bg-white dark:bg-gray-700" alt="Tribute Page" />
+  <div class="p-6 text-left">
+    <h3 class="text-xl font-semibold text-purple-700 dark:text-purple-300">Tribute Page</h3>
+    <p class="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+      A responsive HTML/CSS tribute page project following FCC guidelines.
+    </p>
+  </div>
+</a>
+
+<!-- FreeCodeCamp: Random Quote Machine -->
+<a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank"
+   class="block shadow-lg hover:shadow-purple-200 rounded-xl overflow-hidden transition bg-purple-100 dark:bg-gray-800">
+  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+       class="w-full h-48 object-contain p-6 bg-white dark:bg-gray-700" alt="Random Quote Machine" />
+  <div class="p-6 text-left">
+    <h3 class="text-xl font-semibold text-purple-700 dark:text-purple-300">Quote Machine</h3>
+    <p class="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+      A JavaScript app that fetches random quotes and displays author info.
+    </p>
+  </div>
+</a>
+
+<!-- FreeCodeCamp: JavaScript Calculator -->
+<a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank"
+   class="block shadow-lg hover:shadow-purple-200 rounded-xl overflow-hidden transition bg-purple-100 dark:bg-gray-800">
+  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+       class="w-full h-48 object-contain p-6 bg-white dark:bg-gray-700" alt="JS Calculator" />
+  <div class="p-6 text-left">
+    <h3 class="text-xl font-semibold text-purple-700 dark:text-purple-300">JS Calculator</h3>
+    <p class="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+      A functional calculator built with vanilla JavaScript and responsive CSS.
+    </p>
+  </div>
+</a>
+
+
         </div>
       </div>
     </section>
@@ -112,5 +183,12 @@
     <footer class="text-center text-sm py-6 text-gray-500 bg-white border-t border-pink-100">
       &copy; 2025 GRACE WANJIKU KIBOI. All rights reserved.
     </footer>
+    <script>
+  function toggleDarkMode() {
+    document.documentElement.classList.toggle('dark');
+  }
+</script>
+
   </body>
 </html>
+
